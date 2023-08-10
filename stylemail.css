@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;background-color: #3498db;
+
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+     background-color: #111;
+     transition-duration: .5s; 
+  }
+  
+  .fa-home, .fa-user, .fa-envelope {
+    margin-right: 5px;
+  }
+  .mail{
+    color: #000;
+    display:inline-block;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    border-radius: 15px;
+  }
+  #a{
+    color: #000;
+    background-color: #fbc531;
+display: inline;
+border-radius: 25px;
+  }
+  
